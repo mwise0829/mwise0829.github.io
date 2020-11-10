@@ -1,5 +1,5 @@
 <style>
-.hero_image {
+#hero_image {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("unit_3/images/hero_image.png");
 	height: 50%
 	background-position: center;
@@ -8,7 +8,7 @@
 	position: relative;
 	
 }
-.h1 {
+#h1 {
 	font-size: 100px;
 	font-weight: bold;
 	font-family: sans-serif;
@@ -16,14 +16,14 @@
 	color:#5C423D;
 }
 
-.slogan {
+#slogan {
 	font-style: italic;
 	color: #CC6149;
 	font-size: 50px;
 	text-align: center;
 }
 
-.joke {
+#joke {
 	color: #FF7A5B
 	text-align: center;
 	color: #803D2E
@@ -32,26 +32,26 @@
 
 }
 
-.list {
+#list {
 	font-size: 40px;
 	text-align: center;
 	color:#D13426;
 }
 
-.ul {
+#ul {
 	font-size: 40px;
 	text-align: center;
 	color: #52140F;
 	margin: auto;
 }
 
-.close {
+#close {
 	color: #FFB8A8;
 	font-size: 50px;
 	text-align: center;
 	color: #D13426;
 }
-.address {
+#address {
 	font-size: 30px;
 	text-align: left;
 }
