@@ -30,8 +30,9 @@ h1 {
 
 ul {
 	font-size: 30px;
-	
 	color: #52140F;
+}
+marker {
 	list-style: square;
 	list-style-position: center
 }
