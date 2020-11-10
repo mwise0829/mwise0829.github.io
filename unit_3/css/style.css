@@ -1,7 +1,6 @@
 <style>
-#hero_image {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("unit_3/images/hero_image.png");
-	height: 50%
+#body {
+	background-image: url("unit_3/images/hero_image.png");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -25,8 +24,6 @@
 
 #joke {
 	color: #FF7A5B
-	text-align: center;
-	color: #803D2E
 	font-size:50px;
 	text-align: center;
 
@@ -43,6 +40,9 @@
 	text-align: center;
 	color: #52140F;
 	margin: auto;
+}
+#li {
+	align-content: center;
 }
 
 #close {
