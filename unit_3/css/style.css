@@ -36,7 +36,7 @@ ul {
 }
 marker {
 	list-style-type: square;
-	align-content: center;
+	text-align: center;
 
 }
 .close {
