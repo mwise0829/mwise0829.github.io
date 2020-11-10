@@ -21,16 +21,22 @@ h1 {
 	font-size: 50px;
 	text-align: center;
 }
+.joke {
+	font-weight: bold;
+	text-align: center;
+	font-size: 30px;
+
+}
 
 .list {
-	font-size: 40px;
+	font-size: 25px;
 	text-align: center;
 	color:#CC6149;
 }
 
 ul {
-	font-size: 30px;
-	color: #52140F;
+	font-size: 20px;
+	color: black;
 	text-align: center
 }
 marker {
@@ -38,7 +44,7 @@ marker {
 	
 }
 .close {
-	font-size: 40px;
+	font-size: 30px;
 	text-align: center;
 	color: #CC6149;
 }
