@@ -7,44 +7,44 @@
 	position: relative;
 	z-index: -1;
 }
-.joke {
-	color: #FF7A5B
-	text-align: center;
-	color: #803D2E
-	font-size:25px;
-	text-align: center;
-
-}
-#title {
-	font-size: 40px;
+.h1 {
+	font-size: 100px;
 	font-weight: bold;
 	font-family: sans-serif;
 	text-align: center;
 	color:#5C423D;
-}
-#slogan {
+	}
+.slogan {
 	font-style: italic;
 	color: #CC6149;
-	font-size: 35px;
+	font-size: 50px;
 	text-align: center;
 }
+.joke {
+	color: #FF7A5B
+	text-align: center;
+	color: #803D2E
+	font-size:50px;
+	text-align: center;
+
+}
 #list {
-	font-size: 15px;
+	font-size: 40px;
 	text-align: center;
 	color:#852118;
 }
 #ul {
-	font-size: 15px;
+	font-size: 40px;
 	text-align: center;
 	color: #52140F;
 }
 #close {
 	color: #FFB8A8;
-	font-size: 20px;
+	font-size: 50px;
 	text-align: center;
 	color: #D13426;
 }
 #address {
-	font-size: 20px;
+	font-size: 30px;
 	text-align: left;
 }
