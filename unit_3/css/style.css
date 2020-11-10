@@ -38,9 +38,10 @@ ul {
 	font-size: 20px;
 	color: black;
 	text-align: center
+
 }
 marker {
-	list-style: none;
+	list-style-type: none;
 	
 }
 .close {
