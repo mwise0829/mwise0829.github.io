@@ -1,6 +1,6 @@
 <style>
 .hero_image {
-	background-image: url(mwise0829.github.io/unit_3/images/hero_image.png);
+	background-image: url("https://github.com/mwise0829/mwise0829.github.io/blob/master/unit_3/images/hero_image.png");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -13,13 +13,15 @@
 	font-family: sans-serif;
 	text-align: center;
 	color:#5C423D;
-	}
+}
+
 .slogan {
 	font-style: italic;
 	color: #CC6149;
 	font-size: 50px;
 	text-align: center;
 }
+
 .joke {
 	color: #FF7A5B
 	text-align: center;
@@ -28,17 +30,20 @@
 	text-align: center;
 
 }
+
 .list {
 	font-size: 40px;
 	text-align: center;
-	color:#852118;
+	color:#D13426;
 }
+
 .ul {
 	font-size: 40px;
 	text-align: center;
 	color: #52140F;
 	margin: auto;
 }
+
 .close {
 	color: #FFB8A8;
 	font-size: 50px;
