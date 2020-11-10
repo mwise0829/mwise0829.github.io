@@ -1,6 +1,7 @@
 <style>
 img {
 	width: 100%;
+	height: auto;
 }
 h1 {
 	font-size: 100px;
@@ -38,8 +39,7 @@ ul {
 }
 marker {
 	list-style-type: square;
-	color: white;
-	
+
 }
 .close {
 	font-size: 30px;
