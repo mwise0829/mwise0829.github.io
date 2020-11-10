@@ -11,29 +11,36 @@
 	background-color: #FF7A5B
 	text-align: center;
 	color: #803D2E
-	font-size:30px;
+	font-size:25px;
+	text-align: center;
 
 }
 #title {
 	font-size: 40px;
 	font-weight: bold;
 	font-family: sans-serif;
+	text-align: center;
 }
 #slogan {
 	font-style: italic;
 	color: #805C54;
-	font-size: 25px;
+	font-size: 35px;
+	text-align: center;
 }
 #list {
-	font-size: 20px;
+	font-size: 15px;
+	text-align: center;
 }
 #ul {
 	font-size: 15px;
+	text-align: center;
 }
 #close {
 	color: #FFB8A8;
 	font-size: 20px;
+	text-align: center;
 }
 #address {
 	font-size: 20px;
+	text-align: left;
 }
