@@ -33,15 +33,11 @@ ul {
 	text-align: center;
 	color: #52140F;
 	margin: auto;
+	list-style: square;
+	list-style-position: center
 }
-li {
-	text-align: center;
-	margin: auto;
-	padding-left: 40px;
-}
-
 .close {
-	font-size: 50px;
+	font-size: 40px;
 	text-align: center;
 	color: #CC6149;
 }
