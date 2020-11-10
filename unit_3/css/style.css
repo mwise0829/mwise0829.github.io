@@ -7,7 +7,7 @@
 	position: relative;
 	z-index: -1;
 }
-.title {
+.h1 {
 	font-size: 100px;
 	font-weight: bold;
 	font-family: sans-serif;
