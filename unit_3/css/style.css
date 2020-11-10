@@ -1,5 +1,5 @@
 <style>
-.hero_image {
+#hero_image {
 	background-image: url(mwise0829.github.io/unit_3/images/hero_image.png);
 	background-position: center;
 	background-repeat: no-repeat;
@@ -7,28 +7,28 @@
 	position: relative;
 	z-index: -1;
 }
-.body {
+#body {
 	background-color: #FF7A5B
 	text-align: center;
 	color: #803D2E
 	font-size:30px;
 
 }
-.title {
+#title {
 	font-size: 40px;
 	font-weight: bold;
 	font-family: sans-serif;
 }
-.slogan {
+#slogan {
 	font-style: italic;
 	color: #805C54;
 }
-.list {
+#list {
 	font-size: 20px;
 }
-.ul {
+#ul {
 	font-size: 15px;
 }
-.address {
+#address {
 	color: #FFB8A8;
 }
