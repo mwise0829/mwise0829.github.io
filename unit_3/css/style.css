@@ -15,21 +15,21 @@ h1 {
 	color:#5C423D;
 }
 
-slogan {
+.slogan {
 	font-style: italic;
 	color: #CC6149;
 	font-size: 50px;
 	text-align: center;
 }
 
-list {
+.list {
 	font-size: 40px;
 	text-align: center;
 	color:#CC6149;
 }
 
 ul {
-	font-size: 40px;
+	font-size: 30px;
 	text-align: center;
 	color: #52140F;
 	margin: auto;
@@ -39,7 +39,7 @@ li {
 	margin: auto;
 }
 
-close {
+.close {
 	font-size: 50px;
 	text-align: center;
 	color: #CC6149;
