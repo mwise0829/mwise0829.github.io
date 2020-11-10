@@ -37,6 +37,7 @@ ul {
 li {
 	text-align: center;
 	margin: auto;
+	padding-left: 40px;
 }
 
 .close {
@@ -45,7 +46,7 @@ li {
 	color: #CC6149;
 }
 address {
-	font-size: 30px;
+	font-size: 20px;
 	text-align: left;
 }
 </style>
