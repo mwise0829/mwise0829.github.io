@@ -32,7 +32,7 @@
 #list {
 	font-size: 40px;
 	text-align: center;
-	color:#D13426;
+	color:#CC6149;
 }
 
 #ul {
@@ -42,14 +42,14 @@
 	margin: auto;
 }
 #li {
-	align-content: center;
+	text-align: center;
 }
 
 #close {
 	color: #FFB8A8;
 	font-size: 50px;
 	text-align: center;
-	color: #D13426;
+	color: #CC6149;
 }
 #address {
 	font-size: 30px;
