@@ -30,9 +30,8 @@ h1 {
 
 ul {
 	font-size: 30px;
-	text-align: center;
+	
 	color: #52140F;
-	margin: auto;
 	list-style: square;
 	list-style-position: center
 }
