@@ -31,10 +31,10 @@ h1 {
 ul {
 	font-size: 30px;
 	color: #52140F;
-	list-style-position: center
+	text-align: center
 }
 marker {
-	list-style: square;
+	list-style: none;
 	
 }
 .close {
