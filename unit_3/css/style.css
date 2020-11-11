@@ -8,44 +8,44 @@
 	color:#5C423D;*//
 }
 
-slogan {
+.slogan {
 	font-style: italic;
 	color: #CC6149;
 	font-size: 50px;
 	text-align: center;
 	font-weight: bold;
 }
-joke {
+.joke {
 	
 	text-align: center;
 	font-size: 30px;
 
 }
 
-list {
+.list {
 	font-size: 25px;
 	text-align: center;
 	color:#CC6149;
 }
 
-ul {
+.ul {
 	font-size: 20px;
 	color: black;
 	text-align: center;
 
 }
-marker {
+.marker {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	
 }
-close {
+.close {
 	font-size: 30px;
 	text-align: center;
 	color: #CC6149;
 }
-address {
+.address {
 	font-size: 20px;
 	text-align: left;
 }
