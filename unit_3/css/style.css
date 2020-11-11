@@ -31,13 +31,14 @@
 .ul {
 	font-size: 20px;
 	color: black;
-	
+	text-align: center;
 
 }
 marker {
-	list-style-type: square;
-	text-align: center;
-
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	
 }
 .close {
 	font-size: 30px;
