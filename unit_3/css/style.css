@@ -29,7 +29,7 @@
 	font-size: 20px;
 	color: black;
 	text-align: center;
-	list-style-type: none;
+	padding-left: 0;
 	list-style-position: inside;
 }
 .marker {
