@@ -30,7 +30,7 @@
 	color: black;
 	text-align: center;
 	list-style-type: none;
-
+	list-style-position: inside;
 }
 .marker {
 	margin: 0;
