@@ -1,6 +1,6 @@
 <style>
 }
-h1 {
+.h1 {
 	font-size: 100px;
 	font-weight: bold;
 	font-family: sans-serif;
@@ -28,13 +28,13 @@ h1 {
 	color:#CC6149;
 }
 
-ul {
+.ul {
 	font-size: 20px;
 	color: black;
 	
 
 }
-marker {
+.marker {
 	list-style-type: square;
 	text-align: center;
 
