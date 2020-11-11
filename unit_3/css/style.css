@@ -29,10 +29,10 @@
 	font-size: 20px;
 	color: black;
 	text-align: center;
+	list-style-type: none;
 
 }
 .marker {
-	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	
