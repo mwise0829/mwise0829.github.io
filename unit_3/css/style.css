@@ -1,11 +1,11 @@
 <style>
 }
-#h1 {
+//*#h1 {
 	font-size: 100px;
 	font-weight: bold;
 	font-family: sans-serif;
 	text-align: center;
-	color:#5C423D;
+	color:#5C423D;*//
 }
 
 .slogan {
