@@ -1,18 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@900&display=swap');
+/*#h1 {
+	font-size: 100px;
+	font-weight: bold;
+	font-family: sans-serif;
+	text-align: center;
+	color:#5C423D;*/
+
 .slogan {
 	font-style: italic;
 	color: #CC6149;
 	font-size: 50px;
 	text-align: center;
 	font-weight: bold;
-	font-family: 'Big Shoulders Stencil Text', cursive;
 }
 .joke {
 	
 	text-align: center;
 	font-size: 25px;
-	font-family: 'Big Shoulders Stencil Text', cursive;
 
 }
 
@@ -32,6 +35,5 @@
 	font-size: 30px;
 	text-align: center;
 	color: #CC6149;
-	font-family: 'Big Shoulders Stencil Text', cursive;
 }
 
