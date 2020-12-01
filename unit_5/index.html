@@ -4,47 +4,116 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
-<section>
-<img src="https://github.com/mwise0829/mwise0829.github.io/blob/master/unit_3/images/hero_image2.png?raw=true" style="width: 100%; height: auto; position: center" alt="dog">
-</section>
-
-<h1 style="font-weight: bold; text-align: center; font-size: 90px; color:#5C423D; font-family: 'Big Shoulders Stencil Text', cursive;">Bark Park Inc.</h1>
-
 <body>
-<div class="slogan">
-	The Human friendly park!
-</div><p></p>
+	<div class="wrapper">
+		<header>
+			<img src="https://github.com/mwise0829/mwise0829.github.io/blob/master/unit_3/images/hero_image2.png?raw=true" style="width: 100%; height: auto; position: center" alt="dog">
+		</header>
 
-<div class="joke">
-	I can't take my dog to the park without all the ducks attacking him. I shouldn't have gotten a pure bread.
-</div>
-<p></p><p></p>
+		<section id="title">
+			<h1 style="font-weight: bold; text-align: center; font-size: 90px; color:#5C423D; font-family: 'Big Shoulders Stencil Text', cursive;">Bark Park Inc.</h1>
 
-<div class="list">
-	Come join us at the BEST dog park around. We offer:
-	<p></p>
-</div>
-	
-<div class="ul">
-		<ul>
-		<li style="list-style-type: square">50 fenced acres</li>
-		<li style="list-style-type: square">Swimming pond</li>
-		<li style="list-style-type: square">Walking trails</li>
-		<li style="list-style-type: square">Agility area</li>
-		<li style="list-style-type: square">Small dog park</li>
-	</ul>
-</div>
-<p></p>	
+			<div class="slogan">
+				The Human friendly park!
+			</div>
+		</section>
 
-<div class="close">
-Open from Sunrise to Sunset
-</div>
-<p></p>
+		<section id="body">
+			<div class="joke">
+				I can't take my dog to the park without all the ducks attacking him. I shouldn't have gotten a pure bread.
+			</div>
+		
+			<h2>Come join us at the BEST dog park around. Open from Sunrise to Sunset.</h2>
+		</section>
+		<section id="table">
+			<div class="row">
+			  <div class="column">
+			    <img src="https://github.com/mwise0829/mwise0829.github.io/blob/master/unit_5/images/fence.jpg?raw=true" alt="fence" style="width:100%">
+			  </div>
+			  <div class="column">
+			    <img src="https://github.com/mwise0829/mwise0829.github.io/blob/master/unit_5/images/pond.jpg?raw=true" alt="pond" style="width:100%">
+			  </div>
+			  <div class="column">
+			    <img src="https://github.com/mwise0829/mwise0829.github.io/blob/master/unit_5/images/agility.jpg?raw=true" alt="agility" style="width:100%">
+			  </div>
+			</div>
 
-<address>
-	<a href="mailto:MWise0829@gmail.com" style="font-size: 25px">Bark @ Us</a>
-</address>
+			<div class="row">
+			  <div class="column">
+			    <img src="https://github.com/mwise0829/mwise0829.github.io/blob/master/unit_5/images/small_dog.jpg?raw=true" alt="small_dog" style="width:100%">
+			  </div>
+			  <div class="column">
+			    <img src="https://github.com/mwise0829/mwise0829.github.io/blob/master/unit_5/images/trail.jpg?raw=true" alt="trail" style="width:100%">
+			  </div>
+			  <div class="column">
+			    <img src="https://github.com/mwise0829/mwise0829.github.io/blob/master/unit_5/images/bath.jpg?raw=true" alt="bath" style="width:100%">
+			  </div>
+			</div>
+		</section>
+
+		<section id="quote">
+			<div class="slideshow-container">
+
+			<div class="mySlides">
+			  <q>This is the most amazing park for dogs!!</q>
+			  <p class="author">- Sally Mae</p>
+			</div>
+
+			<div class="mySlides">
+			  <q>My dog loves it here! All shapes and sizes welcome!.</q>
+			  <p class="author">- Bob</p>
+			</div>
+
+			<div class="mySlides">
+			  <q>We wouldn't go anywhere else. The post play bath is a great addition.</q>
+			  <p class="author">- Susan Kellu</p>
+			</div>
+
+			<a class="prev" onclick="plusSlides(-1)">❮</a>
+			<a class="next" onclick="plusSlides(1)">❯</a>
+
+			</div>
+
+			<div class="dot-container">
+			  <span class="dot" onclick="currentSlide(1)"></span> 
+			  <span class="dot" onclick="currentSlide(2)"></span> 
+			  <span class="dot" onclick="currentSlide(3)"></span> 
+			</div>
+
+			<script>
+			var slideIndex = 1;
+			showSlides(slideIndex);
+
+			function plusSlides(n) {
+			  showSlides(slideIndex += n);
+			}
+
+			function currentSlide(n) {
+			  showSlides(slideIndex = n);
+			}
+
+			function showSlides(n) {
+			  var i;
+			  var slides = document.getElementsByClassName("mySlides");
+			  var dots = document.getElementsByClassName("dot");
+			  if (n > slides.length) {slideIndex = 1}    
+			  if (n < 1) {slideIndex = slides.length}
+			  for (i = 0; i < slides.length; i++) {
+			      slides[i].style.display = "none";  
+			  }
+			  for (i = 0; i < dots.length; i++) {
+			      dots[i].className = dots[i].className.replace(" active", "");
+			  }
+			  slides[slideIndex-1].style.display = "block";  
+			  dots[slideIndex-1].className += " active";
+			}
+			</script>				
+			</section>
+			<section id="contact">
+				<address>
+					<a href="mailto:MWise0829@gmail.com" style="font-size: 25px">Bark @ Us</a>
+				</address>
+			</section>
+		</div>
 </body>
-
 </html>
-
