@@ -1,24 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@900&display=swap');
 
-header {
+.header {
 	background-color: #FFED74
 	border: 1px bloack solid
 	padding: 20px;
 	}
-section {
+.section {
 	background-color: #FFE2B8
 	border: 1px bloack solid
 	padding: 20px;
 	}
-title
+.title
 	font-weight: bold; 
 	text-align: center; 
 	font-size: 90px;
 	color: #5C423D; 
 	font-family: 'Big Shoulders Stencil Text', cursive;
 }
-joke {
+.joke {
 	font-style: italic;
 	color: #CC6149;
 	font-size: 50px;
