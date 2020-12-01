@@ -30,16 +30,12 @@
 }
 
 /* Clearfix (clear floats) */
-.row1::after {
+.row::after {
   content: "";
   clear: both;
   display: table;
 }
-.row2::after {
-  content: "";
-  clear: both;
-  display: table;
-}
+
 /* Slideshow container */
 .slideshow-container {
   position: relative;
