@@ -1,17 +1,17 @@
 
-<style type="text/css">
 * {
   box-sizing: border-box;
 }
 body {
-  margin: 10px;
+  margin: 0.6em;
   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtF2wwD5uzX8RznafEbsl0irm92gvwmUrI_A&usqp=CAU");
   z-index: -1;
+  font-size: 1em;
 }
 .header{
  background-color: #0A337F;
  opacity: 90%;
- height: 200px;
+ height: 12.5;
  width: 100%;
  padding: .3em;
  background-position: url
@@ -19,7 +19,7 @@ body {
 }
 h1 {
  color: white;
- font-size: 60px;
+ font-size: 3.75em;
  font-family: helvectic, serif; 
  font-weight: bolder;
  text-transform: uppercase; 
@@ -27,20 +27,20 @@ h1 {
 }
 .header, .hide {
  color: white;
- font-size: 20px;
+ font-size: 1.25em;
  font-family: helvectic, serif; 
  font-weight: normal;
  text-transform: none; 
 }
 .skills {
-	min-width: 385px;
+	min-width: 24.06em;
 	margin: auto;
 	max-width: 100em;
 }
 .column {
 float: left;
-border: 5px  white solid;
-margin: 2px;
+border: .31em  white solid;
+margin: .125em;
 background-color: black;
 color: black;
 width: 30%;
@@ -48,7 +48,7 @@ width: 30%;
 h2 {
 	text-align: center;
 	height: 8%;
-	margin-top: 0px;
+	margin-top: 0em;
 	vertical-align: middle;
 	font-variant: small-caps; 
 }
@@ -61,7 +61,7 @@ h2 {
 } 
 .column, p {
 	color: white;
-	font-size: 20px;
+	font-size: 1.25em;
 	text-align: center;
 	margin: 1em;
 }
@@ -91,4 +91,3 @@ a:active {
   background-color: transparent;
   text-decoration: none;
 }
-</style>
