@@ -11,7 +11,7 @@ body {
 .header{
  background-color: #0A337F;
  opacity: 90%;
- height: 12.5;
+ height: 12.5em;
  width: 100%;
  padding: .3em;
  background-position: url
@@ -33,9 +33,9 @@ h1 {
  text-transform: none; 
 }
 .skills {
-	min-width: 24.06em;
+	min-width: 74.125em;
 	margin: auto;
-	max-width: 100em;
+
 }
 .column {
 float: left;
@@ -90,4 +90,9 @@ a:active {
   color: black;
   background-color: transparent;
   text-decoration: none;
+}
+@media only screen and (min-width 1200px) {
+	body{
+	font-size: .5em;
+}
 }
