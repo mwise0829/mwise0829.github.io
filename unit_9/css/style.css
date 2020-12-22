@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.container .btn {
+  position: absolute;
+  top: 100%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #688e91;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: 2px #688e91 solid;
+  cursor: pointer;
+  text-align: center;
+}
+
+.container .btn:hover {
+  background-color: white;
+  color: #688e91;
+}
+
+.header {
+        background: #221F1F;
+        color: white;
+        padding: 1.875em;
+        height:9em;
+        letter-spacing: 0.625em;
+        margin: auto;
+        font-family: helvectic, serif;
+}
+a {
+     color: white;
+  background-color: transparent;
+  text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    line-height: 3em;
+ }
+a:hover {
+    background-color: #003767;
+    color: white;
+    text-align: center;
+    display: block !important;
+    width: 100%;
+        line-height: 3em;
+
+
+}
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+    text-align: center;
+        line-height: 3em;
+   
+}
+h1 {
+    font-size: 2.25em;
+    font-family: helvectic, serif;
+}
+h2 {
+    font-size: 1.875em;
+    color: white;
+}
+    h3 {
+    font-size:2em;
+    color: black;   
+    }    
+.sidebar {
+    height: 100%;
+    min-width: 12.5em;
+    position: fixed!important;
+    z-index: 1;
+    overflow: auto;
+    color: white!important;
+    background-color: #3F403F!important;
+    word-break: break-all;
+}
+.w3-container, .w3-panel {
+    padding: 0.01em 1em;
+}
+.w3-bar-block .w3-bar-item {
+    width: 100%;
+    display: block;
+    padding: .5em 1em;
+    text-align: left;
+    border: none;
+    white-space: normal;
+    float: none;
+    outline: 0;
+}
+.w3-btn, .w3-button {
+    border: none;
+    display: inline-block;
+    padding: .5em 1em;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    font-size: 1.3em;
+  }
+
+.zoom {
+        transition: transform .2s;
+        cursor: pointer;
+    } 
+.zoom:hover {
+        transform: scale(1.1);
+     }
+
